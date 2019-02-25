@@ -128,15 +128,7 @@ Once all the participants have joined the network, the manufacturer will create 
 
  User will enter 'Asset Name.' For example, Car_Model. Select ‘Asset Type’ as ‘Solo.’ Keep ‘issuing address’ as ‘Default.’ And will click ‘Create.’
 
-**Note:** Different kind of information can be attached to the asset like color, manufacturing year, etc. from the ‘ADD/UPDATE SOLO ASSET INFO’ option available in the ‘Asset management’ section. See the image below.
 
-![Add Asset Info](https://github.com/AnasBlock/Screenshots/blob/master/Add%20asset%20info%20ss%20no.13.png)
-
-The unique identifier here can be anything, like VIN number of the vehicle. 
-
-After adding all the information, the user can see the information attached with the asset by clicking 'get asset info' option. The user will first select 'asset name' and then type the unique identifier to get the details of the asset. See the below image. 
-
-![Get info](https://github.com/AnasBlock/Screenshots/blob/master/Get%20Asse%20info%20ss%20no.12.png)
 
 **4.**    **Manufacturer** **will take ownership of the assets by issuing the assets to his account.**
 
@@ -148,9 +140,17 @@ User will click on the 'Manage Assets' from the 'Assets' section.
 
 In issue ‘Solo Asset’ section, the user will type the asset name, and in the ‘to account’ the default manufacturer account address, and finally click ‘issue asset.’ An identifier can be added to the transaction that can be the registration number of the vehicle. [The address can be copied from the ‘Accounts’ section in the dashboard]
 
-![Issue Asset](https://github.com/AnasBlock/Screenshots/blob/master/issue%20assets%20ss%20no.10.png)
+![Issue Asset](https://github.com/AnasBlock/Screenshots/blob/master/New%20Issue%20asset%20ss%20no.14.png)
 
+**Note:** Different kind of information can be attached to the asset like color, manufacturing year, etc. from the ‘ADD/UPDATE SOLO ASSET INFO’ option available in the ‘Asset management’ section. See the image below.
 
+![Add Asset Info](https://github.com/AnasBlock/Screenshots/blob/master/Add%20asset%20info%20ss%20no.13.png)
+
+The unique identifier here can be anything, like VIN number of the vehicle. 
+
+After adding all the information, the user can see the information attached with the asset by clicking 'get asset info' option. The user will first select 'asset name' and then type the unique identifier to get the details of the asset. See the below image. 
+
+![Get info](https://github.com/AnasBlock/Screenshots/blob/master/Get%20Asse%20info%20ss%20no.12.png)
 
 # Process Flow
 
