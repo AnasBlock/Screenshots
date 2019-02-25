@@ -4,7 +4,7 @@ A supply chain of any business involves a vast number of stakeholders. There is 
 
  
 
-#### Challenges
+# Challenges
 
 The biggest challenge the supply chains are facing today is the data flow. There are many roadblocks in the smooth data flow among the stakeholders such as the absence of ways to track & trace the assets, unavailability of near real-time location of the shipments, lack of interconnecting network, unauthorized data access/changes, etc.
 
@@ -26,7 +26,7 @@ With so many users handling the process, preventing unauthorized accesses is dif
 
  
 
-#### How does Blockchain help?
+# How does Blockchain help?
 
 Blockchain with its features like immutability, transparency, distributed database, and security can solve a lot of issues in the supply chain management. 
 
@@ -44,9 +44,9 @@ As the asset moves between various nodes, the information can be stored in the B
 
 Any data on the Blockchain network is encrypted, time-stamped, and stored in a distributed database. This reduces the chances of any data breaches. In Blockchain, transactions can be executed only by a user with the right Public and Private keys. Even, the information can be accessed only by the user with the right Private keys.
 
+# 
 
-
-#### How to Track & Trace Assets in Supply Chain using BlockCluster
+# How to Track & Trace Assets in Supply Chain using BlockCluster
 
 To explain the process step by step, let us take an example of the supply chain of car manufacturing. 
 
@@ -78,7 +78,7 @@ To build a Blockchain-based solution on BlockCluster to track & trace assets in 
 
 **1.**    **The** **manufacturer** **needs to create a  Blockchain network**
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\msohtmlclip1\01\clip_image004.gif)
+![create network](https://github.com/AnasBlock/Screenshots/blob/master/Create%20Blockhain%20Network%20Screen%20shot%20no.2.png)
 
 - The manufacturer will first create a BlockCluster account by visiting **app.blockcluster.io**. 
 
@@ -102,31 +102,35 @@ Once the network is up and running, the user will be redirected to the BlockClus
 
 The manufacturer needs to invite other participants of the supply chain with whom transactions need to be done, i.e. issue/exchange assets. The user needs to click invite user icon (second icon) in the top icon bar.
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\msohtmlclip1\01\clip_image006.gif)
+![Invite member](https://github.com/AnasBlock/Screenshots/blob/master/Invite%20members%20ss%20no.3.png)
 
 On this screen, the user needs to select the second option ‘invite user to network.’
 
 - Enter email id of the participant, select node type as ‘Peer’ and click 'Invite.' The participant would receive an email containing link to join the network. Similarly, the manufacturer needs to invite each participant separately. 
 
-- After clicking the link, the participant would be asked to create a BlockCluster account and become a node to join the network. 
+- After clicking the link, the participant would be asked to create a BlockCluster account. 
 
 - If the participants already have an account on BlockCluster, they would receive the invitation in the 'manage invitation' section as shown the figure below.
 
-  ![Accept Invitation 1](F:\BlockCluster\Screenhots\Supply Chain New\Accept Invitation 1.png)
+  ![receive invitation](https://github.com/AnasBlock/Screenshots/blob/master/Accept%20Invitation%20Screen%20shot%20no.4.png)
+
+- After Clicking on 'accept' button, the participant would be asked to create a node as shown below
+
+  ![accept invite, create node](https://github.com/AnasBlock/Screenshots/blob/master/Accept%20Invite-create%20node%20ss%20no.5.png)
 
   
 
 **3.**    **Manufacturer** **will create assets on the Blockchain network.**
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\msohtmlclip1\01\clip_image008.gif)
+![Create Asset](https://github.com/AnasBlock/Screenshots/blob/master/Create%20Asset%20ss%20no.8.png)
 
 Once all the participants have joined the network, the manufacturer will create assets (in this case, cars) on the Blockchain network. The user will click on 'Create Asset Type' from 'Control Panel.'
 
- 
+ User will enter 'Asset Name.' For example, Car_Model. Select ‘Asset Type’ as ‘Solo.’ Keep ‘issuing address’ as ‘Default.’ And will click ‘Create.’
 
-User will enter 'Asset Name.' For example, Car_Model. Select ‘Asset Type’ as ‘Solo.’ Keep ‘issuing address’ as ‘Default.’ And will click ‘Create.’
+**Note:** Different kind of information can be attached to the asset like color, manufacturing year, etc. from the ‘ADD/UPDATE SOLO ASSET INFO’ option available in the ‘Asset management’ section. See the image below.
 
-**Note:** Different kind of information can be attached to the asset like color, manufacturing year, etc. from the ‘ADD/UPDATE SOLO ASSET INFO’ option available in the ‘Asset management’ section.
+![Add Asset Info](https://github.com/AnasBlock/Screenshots/blob/master/Update%20asset%20info%20no.11.png)
 
 
 
@@ -136,21 +140,29 @@ To issue assets:
 
 User will click on the 'Manage Assets' from the 'Assets' section.
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\msohtmlclip1\01\clip_image010.gif)
-
-![img](file:///C:\Users\Dell\AppData\Local\Temp\msohtmlclip1\01\clip_image012.jpg)
+![Manage Asset](https://github.com/AnasBlock/Screenshots/blob/master/Manage%20Asset%20ss%20no.9.png)
 
 In issue ‘Solo Asset’ section, the user will type the asset name, and in the ‘to account’ the default manufacturer account address, and finally click ‘issue asset.’ An identifier can be added to the transaction that can be the registration number of the vehicle. [The address can be copied from the ‘Accounts’ section in the dashboard]
 
+![Issue Asset](https://github.com/AnasBlock/Screenshots/blob/master/issue%20assets%20ss%20no.10.png)
 
 
-#### Process Flow
+
+# Process Flow
 
 Once all the steps as mentioned above is successfully executed, the whole supply chain process would get replicated on the BlockCluster’s Blockchain ecosystem.
 
+The manufacturer can see the numbers of nodes connected, in the 'node peers' option available in the control panel. See the image below.
+
+![Peers Connected](https://github.com/AnasBlock/Screenshots/blob/master/Connected%20Peers%20ss%20no.6.png)
+
+Similarly, the different participants can see from which Blockchain nodes they are connected with via graphical map representation in the 'static peers' option. See the image below.
+
+![Map](https://github.com/AnasBlock/Screenshots/blob/master/Map%20SS%20no.7.png)
+
 Now whenever an asset will move from one participant to another, two steps are required to be performed:
 
-1. **Transfer of ownership:** This will happen through API call integrated with the apps used by each participant in the supply chain. As soon as they give the custody of asset to other participant, they need to transfer the ownership of asset on BlockCluster too, via the API integrated with the apps. This will be captured with time and geo-location.
+1. **Transfer of ownership:** This will happen through API call integrated with the apps used by each participant in the supply chain. As soon as they give the custody of asset to other participant, they need to transfer the ownership of asset on BlockCluster too, via the API integrated with the apps. This will be captured with time and geo-location information.
 
  
 
@@ -164,4 +176,5 @@ Now whenever an asset will move from one participant to another, two steps are r
 
 The receipt would act as a **declaration** by the receiving participant that he has taken the custody of the goods. The lat-long details in the asset info would help in tracking the location of the asset in real-time.
 
-The information on transfer of ownership would be stored in blocks, one after another, forming chain custody. Based on both these information, it is easy to trace back the asset to its origin and know the custodian of the asset at a specific time. Only the authorized members can access the information about whereabouts of the assets.  
+The information on transfer of ownership would be stored in blocks, one after another, forming a chain of custody. Based on both these information, it is easy to trace back the asset to its origin and know the custodian of the asset at a specific time. Only the authorized members can access the information about whereabouts of the assets.  
+
