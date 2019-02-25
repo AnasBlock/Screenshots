@@ -44,7 +44,7 @@ As the asset moves between various nodes, the information can be stored in the B
 
 Any data on the Blockchain network is encrypted, time-stamped, and stored in a distributed database. This reduces the chances of any data breaches. In Blockchain, transactions can be executed only by a user with the right Public and Private keys. Even, the information can be accessed only by the user with the right Private keys.
 
-# 
+
 
 # How to Track & Trace Assets in Supply Chain using BlockCluster
 
@@ -78,7 +78,7 @@ To build a Blockchain-based solution on BlockCluster to track & trace assets in 
 
 **1.**    **The** **manufacturer** **needs to create a  Blockchain network**
 
-![create network](https://github.com/AnasBlock/Screenshots/blob/master/Create%20Blockhain%20Network%20Screen%20shot%20no.2.png)
+![create network](https://github.com/AnasBlock/Screenshots/blob/master/New%20SS.2.png)
 
 - The manufacturer will first create a BlockCluster account by visiting **app.blockcluster.io**. 
 
@@ -116,7 +116,7 @@ On this screen, the user needs to select the second option ‘invite user to net
 
 - After Clicking on 'accept' button, the participant would be asked to create a node as shown below
 
-  ![accept invite, create node](https://github.com/AnasBlock/Screenshots/blob/master/Accept%20Invite-create%20node%20ss%20no.5.png)
+  ![accept invite, create node](https://github.com/AnasBlock/Screenshots/blob/master/New%20no.5.png)
 
   
 
@@ -130,9 +130,13 @@ Once all the participants have joined the network, the manufacturer will create 
 
 **Note:** Different kind of information can be attached to the asset like color, manufacturing year, etc. from the ‘ADD/UPDATE SOLO ASSET INFO’ option available in the ‘Asset management’ section. See the image below.
 
-![Add Asset Info](https://github.com/AnasBlock/Screenshots/blob/master/Update%20asset%20info%20no.11.png)
+![Add Asset Info](https://github.com/AnasBlock/Screenshots/blob/master/Add%20asset%20info%20ss%20no.13.png)
 
+The unique identifier here can be anything, like VIN number of the vehicle. 
 
+After adding all the information, the user can see the information attached with the asset by clicking 'get asset info' option. The user will first select 'asset name' and then type the unique identifier to get the details of the asset. See the below image. 
+
+![Get info](https://github.com/AnasBlock/Screenshots/blob/master/Get%20Asse%20info%20ss%20no.12.png)
 
 **4.**    **Manufacturer** **will take ownership of the assets by issuing the assets to his account.**
 
@@ -168,9 +172,7 @@ Now whenever an asset will move from one participant to another, two steps are r
 
 2. **Issue receipts:** The participant who has received the custody of the asset (transferee) would issue a receipt to the transferor in the form of a new asset on the Blockchain. The assets info (receipt) would contain important information such as lat-long, status, asset id, etc. (See the figure)
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\msohtmlclip1\01\clip_image014.gif) 
-
- 
+![img](https://github.com/AnasBlock/Screenshots/blob/master/Final.png) 
 
  
 
