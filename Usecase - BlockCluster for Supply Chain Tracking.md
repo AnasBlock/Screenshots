@@ -1,4 +1,4 @@
-#### Industry Overview
+# Industry Overview
 
 A supply chain of any business involves a vast number of stakeholders. There is an exchange of information between different partners which makes it prone to human errors. Once the asset leaves the manufacturing facility, there is less or no visibility into its whereabouts in the supply chain. The tracking information itself can be tempered with. Moreover, unauthorized access to this information can prove to be dangerous for the integrity and safety of the asset. 
 
